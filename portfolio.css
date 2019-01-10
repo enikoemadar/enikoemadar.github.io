@@ -11,10 +11,14 @@ h2 {
     color: #FFFFFF;
     font-family: 'Bebas Neue', sans-serif;
 }
+h3{
+    color: #FFFFFF;
+    font-family: 'Bebas Neue', sans-serif;
+}
 .gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
     column-width: 33%; }
@@ -43,15 +47,4 @@ h2 {
     padding-right: 1.1rem;
     }
     }
-    $(function() {
-        var selectedClass = "";
-        $(".filter").click(function(){
-        selectedClass = $(this).attr("data-rel");
-        $("#gallery").fadeTo(100, 0.1);
-        $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
-        setTimeout(function() {
-        $("."+selectedClass).fadeIn().addClass('animation');
-        $("#gallery").fadeTo(300, 1);
-        }, 300);
-        });
-        });
+    
