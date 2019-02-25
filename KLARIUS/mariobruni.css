@@ -47,6 +47,7 @@ a {
   background-size: cover;
   background-position: center center;
   width: 100%;
+  height: 100%;
 }
 
 .overlay-mf {
@@ -277,7 +278,7 @@ a {
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
-  color: #fff;
+  color: #000;
   top: auto;
   left: auto;
   right: 30px;
@@ -571,6 +572,33 @@ a {
   opacity: 0.9;
 }
 
+.navbar {
+  margin: 10px 0;
+  
+  }
+  .navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  }
+  .brand-name {
+  font-family: 'Josefin Slab', serif;
+  font-size: 47px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  }
+  
+  .nav-container {
+  padding-top: 8px;
+  }
+  
+  .navbar-custom {
+  font-size: 20px;
+  background-color: #FFF;
+  
+  }
+  
+
 /*======================================
 //--//-->   INTRO
 ======================================*/
@@ -648,7 +676,16 @@ a {
     position: left;
     
   }
-  
+  .about .overlay-itro {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 100;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+    position: relative;
+  }
   
   
   
@@ -738,6 +775,61 @@ margin: auto;
 }
 
 
+/*======================================
+//--//-->   LOGO
+======================================*/
+.logo {
+  height: 100vh;
+  position: top left;
+  color: #fff;
+  text-align: left
+}
+
+.logo .logo-content {
+  text-align: left;
+  position: top;
+  top: 0;
+  left: -30px;
+  padding: -20;
+}
+
+
+.logo .logo-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: top left;
+  font-family: 'Bebas Neue', sans-serif;
+  padding-top: 0;
+  margin-left: 0;
+  position: absolute;
+  
+top: 310%;
+left: 1.5%;
+margin: auto;
+
+  
+  
+}
+
+.logo .logo-subtitle {
+  color: #fff;
+    font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  left: 40px;  /* positioning of text */
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  
+top: 320%;
+left: 1.5%;
+margin: auto;
+  
+}
+
+
+
 
 /*======================================
 //--//-->   EVENTS
@@ -780,7 +872,7 @@ margin: auto;
     margin-left: 0;
     position: absolute;
     
-  top: 310%;
+  top: 410%;
   left: 1.5%;
   margin: auto;
 
@@ -798,7 +890,7 @@ margin: auto;
     text-transform: uppercase;
     position: absolute;
     
-  top: 320%;
+  top: 420%;
   left: 1.5%;
   margin: auto;
     
@@ -825,7 +917,7 @@ margin: auto;
   .releases .overlay-itro {
     background-color: rgba(15, 15, 15, 0.6);
     position: relative;
-    top: 400;
+    top: 500;
     left: 0px;
     padding: 0;
     height: 100%;
@@ -842,7 +934,7 @@ margin: auto;
     padding-top: 0;
     margin-left: 0;
     position: absolute;
-  top: 410%;
+  top: 510%;
   left: 1.5%;
   margin: auto;
   text-transform: uppercase;
@@ -860,7 +952,7 @@ margin: auto;
     text-transform: uppercase;
     width: 450px auto;
     position: absolute;
-  top: 417%;
+  top: 517%;
   left: 1.5%;
   margin: auto;
     
@@ -894,7 +986,7 @@ margin: auto;
 .book .overlay-itro {
   background-color: rgba(15, 15, 15, 0.6);
   position: relative;
-  top: 500;
+  top: 600;
   left: 0px;
   padding: 0;
   height: 100%;
@@ -911,7 +1003,7 @@ margin: auto;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 510%;
+  top: 610%;
   left: 1.5%;
   margin: auto;
 }
@@ -925,40 +1017,13 @@ margin: auto;
   text-transform: uppercase;
   width: 450px;
     position: absolute;
-  top: 517%;
+  top: 617%;
   left: 1.5%;
   margin: auto;
   
 }
 
-
 /* End of BOOK */
-
-
-
-
-
-
-
-
-
-
-/*======================================
-//--//-->   PORTFOLIO
-======================================*/
-
-/*======================================
-//--//-->   TESTIMONIALS
-======================================*/
-
-/*======================================
-//--//-->   BLOG
-======================================*/
-
-
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
 
 /*======================================
 //--//-->   CONTACT
@@ -966,10 +1031,12 @@ margin: auto;
 
 .footer-paralax {
   padding: 4rem 0 0 0;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 .contact-mf {
   margin-top: 4rem;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 /*======================================
