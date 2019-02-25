@@ -580,13 +580,15 @@ a {
   position: top left;
   color: #fff;
   text-align: left;
+
   
 }
 
 .intro .intro-content {
   text-align: left;
-  position: top;
+  position: absolute;
   top: 0;
+ 
  
 }
 
@@ -598,7 +600,7 @@ a {
   height: 100%;
   width: 100%;
   opacity: .9;
-  position: fixed;
+  position: relative;
 }
 
 .intro .intro-title {
@@ -648,16 +650,7 @@ a {
   }
   
   
-  .about .overlay-itro {
-    background-color: rgba(15, 15, 15, 0.6);
-    position: fixed;
-    top: 100;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .9;
-  }
+  
   
   .about .about-title {
     color: #fff;
@@ -692,6 +685,61 @@ a {
   }
 
 /*======================================
+//--//-->   LOGO
+======================================*/
+.logo {
+  height: 100vh;
+  position: top left;
+  color: #fff;
+  text-align: left
+}
+
+.logo .logo-content {
+  text-align: left;
+  position: top;
+  top: 0;
+  left: -30px;
+  padding: -20;
+}
+
+
+.logo .logo-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: top left;
+  font-family: 'Bebas Neue', sans-serif;
+  padding-top: 0;
+  margin-left: 0;
+  position: absolute;
+  
+top: 210%;
+left: 1.5%;
+margin: auto;
+
+  
+  
+}
+
+.logo .logo-subtitle {
+  color: #fff;
+    font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  left: 40px;  /* positioning of text */
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  
+top: 220%;
+left: 1.5%;
+margin: auto;
+  
+}
+
+
+
+/*======================================
 //--//-->   EVENTS
 ======================================*/
 .event {
@@ -712,8 +760,8 @@ a {
   
   .event .overlay-itro {
     background-color: rgba(15, 15, 15, 0.6);
-    position: absolute;
-    top: 200;
+    position: relative;
+    top: 300;
     left: 0px;
     padding: 0;
     height: 100%;
@@ -732,7 +780,7 @@ a {
     margin-left: 0;
     position: absolute;
     
-  top: 210%;
+  top: 310%;
   left: 1.5%;
   margin: auto;
 
@@ -750,7 +798,7 @@ a {
     text-transform: uppercase;
     position: absolute;
     
-  top: 220%;
+  top: 320%;
   left: 1.5%;
   margin: auto;
     
@@ -776,8 +824,8 @@ a {
   
   .releases .overlay-itro {
     background-color: rgba(15, 15, 15, 0.6);
-    position: fixed;
-    top: 300;
+    position: relative;
+    top: 400;
     left: 0px;
     padding: 0;
     height: 100%;
@@ -794,7 +842,7 @@ a {
     padding-top: 0;
     margin-left: 0;
     position: absolute;
-  top: 310%;
+  top: 410%;
   left: 1.5%;
   margin: auto;
   text-transform: uppercase;
@@ -812,7 +860,7 @@ a {
     text-transform: uppercase;
     width: 450px auto;
     position: absolute;
-  top: 317%;
+  top: 417%;
   left: 1.5%;
   margin: auto;
     
@@ -845,8 +893,8 @@ a {
 
 .book .overlay-itro {
   background-color: rgba(15, 15, 15, 0.6);
-  position: fixed;
-  top: 300;
+  position: relative;
+  top: 500;
   left: 0px;
   padding: 0;
   height: 100%;
@@ -863,7 +911,7 @@ a {
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 410%;
+  top: 510%;
   left: 1.5%;
   margin: auto;
 }
@@ -877,7 +925,7 @@ a {
   text-transform: uppercase;
   width: 450px;
     position: absolute;
-  top: 417%;
+  top: 517%;
   left: 1.5%;
   margin: auto;
   
@@ -931,12 +979,12 @@ a {
 footer {
   text-align: center;
   color: #fff;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   font-family: 'Exo', sans-serif;
 }
 
 footer .copyright {
-  margin-bottom: .3rem;
+  margin-bottom: 0;
 }
 
 footer .credits {
